@@ -13,4 +13,4 @@ for v4 in range(1, 6, 2):
     print("v4 is :", v4)
 print("*"*20)
 for v5 in range(5, 0, -1):
-    print("v5 is :", v4)
+    print("v5 is :", v5)
