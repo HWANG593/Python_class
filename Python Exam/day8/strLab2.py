@@ -15,11 +15,11 @@ s5 = 'https://www.python.org'
 tmp = s5.split('/')
 print(tmp[-1])
 
-s6 = '891022-2473837'
+s6 = '891022-3473837'
 tmp = s6.split('-')
-if tmp[1][0] == 1 or tmp[1][0] == 3:
+if tmp[1][0] == '1' or tmp[1][0] == '3':
     print('남자')
-if tmp[1][0] == 2 or tmp[1][0] == 4:
+if tmp[1][0] == '2' or tmp[1][0] == '4':
     print('여자')
 
 s7 = '100'
